@@ -6,5 +6,5 @@ This project aims to implement a smart bot for the multiplayer game Tic Tac Toe 
    a. get_child_boards(board, char) - Return a list of the child boards as NumPy arrays where 1 means 'X' and -1 means 'O'. 
    b. evaluate(board) - Checks for winning condition. returns 1 for an X win, -1 for an O win or 0 for no win. 
    c. is_terminal_node(board) of the RunMiniMax and RunMiniMaxAB classes - checks if there is a winner or all positions filled.
-2. ExtraCredit classes contains my own implementation of the problem, which further improves the performance of the code to finish off the game
+2. ExtraCredit classes contains my own implementation to solve the problem. This further improves the performance of the code to finish off the game in less moves. This bot that I created also never lost any games
 
